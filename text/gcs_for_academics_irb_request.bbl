@@ -1,0 +1,32 @@
+\begin{thebibliography}{xx}
+
+\harvarditem{{Google, Inc.}}{2016}{Google_Inc2016-fj}
+{Google, Inc.}  \harvardyearleft 2016\harvardyearright .
+\newblock Google {Surveys} product overview: A new approach to online market
+  research,
+  \url{http://services.google.com/fh/files/helpcenter/googlesurveys_newonlinemktrsrch_overview_final.pdf}.
+\newblock Accessed: 2017-4-14.
+
+\harvarditem{{Google, Inc.}}{2017}{Google_Inc2017-wi}
+{Google, Inc.}  \harvardyearleft 2017\harvardyearright .
+\newblock Google {Surveys} policies,
+  \url{https://support.google.com/360suite/surveys/answer/2375134?hl=en&ref_topic=6194669}.
+\newblock Accessed: 2017-4-14.
+
+\harvarditem[Santoso et~al.]{Santoso, Stein \harvardand\
+  Stevenson}{2016}{doi:10.1093/pan/mpw016}
+Santoso, L.~P., Stein, R. \harvardand\ Stevenson, R.  \harvardyearleft
+  2016\harvardyearright .
+\newblock Survey experiments with {Google} {Consumer} {Surveys}: Promise and
+  pitfalls for academic research in social science, {\em Political Analysis}
+  {\bf 24}(3):~356.
+\newline\harvardurl{+ http://dx.doi.org/10.1093/pan/mpw016}
+
+\harvarditem{Stephens-Davidowitz \harvardand\ Varian}{2015}{varianGoogle2015}
+Stephens-Davidowitz, S. \harvardand\ Varian, H.  \harvardyearleft
+  2015\harvardyearright .
+\newblock A hands-on guide to {Google} data, {\em Technical report}, University
+  of California-Berkeley, Information School.
+\newline\harvardurl{http://people.ischool.berkeley.edu/~hal/Papers/2015/primer.pdf}
+
+\end{thebibliography}

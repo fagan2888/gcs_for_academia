@@ -1,0 +1,18 @@
+Additional data is provided by Google Consumer Surveys. GCS does not use a set panel; rather, respondents are visitors to the pages that have an agreement with GCS. GCS does not collect demographics prior to the interview. Instead, GCS imputes demographics  (age, gender, income, geography, see Table~\ref{tab:data}), relying on browsing history (the types of sites) and IP address (geolocation) to model the characteristics. Note that neither the browsing history nor the IP address are provided to the survey creator. The imputation model relies on CPS Internet Users Supplement \citep{varianGoogle2015}.
+
+\begin{table}
+	\caption{\label{tab:data}Data provided by GCS}
+\begin{tabular}{lp{4in}}
+\hline
+User ID	& Ten-digit number \\
+Time (UTC) & Time the survey was completed\\
+Publisher Category& Type of website the survey appeared on. Can be `Mobile App', `News', `Arts \& Entertainment', `Other'\\
+Gender & Inferred gender: `Male', `Female', and `Unknown'\\
+Age	& Inferred age, in 10-year bands, including `Unknown'\\
+Geography	& Inferred geography, typically state, but may be 'US', and may identify large metropolitan areas\\
+Urban Density& Inferred: Urban, Suburban, Rural\\
+Income & Inferred income: Bands of \$25,000 or `Unknown'\\
+Weight & Computed weight relative to CPS\\
+\hline
+\end{tabular}
+\end{table}
