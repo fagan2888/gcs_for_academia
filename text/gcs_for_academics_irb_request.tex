@@ -55,7 +55,8 @@
 \makeatother
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+\usepackage{acronym}
+\acrodef{GCS}{Google Consumer Surveys}
 \begin{document}
 
  \maketitle
@@ -84,28 +85,39 @@
 	 \newpage
 	 \setcounter{page}{1}
 %	\doublespacing
-\section{Purpose of the survey}
+\section{Specifics of our survey}
+This section discusses our particular questions and interest. Section~\ref{sec:general_gcs} will discuss general characteristics of surveys run on the \ac{GCS} platform.
+
+\subsection{Purpose of the survey}
 \label{sec:intro}
 \input{introduction}
-%\cite{Machanavajjhala:OTM:ICDE:2008}.
 
-\section{Questions}
+
+\subsection{Questions}
 \label{sec:questions}
 \input{questions}
+\clearpage
 
-\section{Conducting the survey}
-\label{sec:conducting}
-\input{conducting}
+\subsection{Conducting the survey}
+\label{sec:conducting_specifics}
+\input{conducting_specifics}
 
-\section{Other data obtained}
+\subsection{Other data obtained}
 \label{sec:data}
 \input{data}
 
-\section{Consent}
+\section{Running academic surveys on Google Consumer Surveys}
+\label{sec:general_gcs}
+
+\input{conducting}
+
+%\subsection{Specific constraints on fielding a survey}
+
+\subsection{Consent}
 \label{sec:consent}
 \input{consent}
 
-\section{Security and IT}
+\subsection{Security and IT}
 \label{sec:security}
 \input{security}
 
